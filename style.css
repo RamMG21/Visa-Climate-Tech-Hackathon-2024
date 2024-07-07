@@ -1,10 +1,19 @@
 *{
     color: rgb(255, 255, 255);
     /*font-family: Neue Machina Light; */
-    font-family: 'Courier New', Courier, monospace;
-    
-    
+    font-family: 'neue_machinaregular', sans-serif;
+     
 }
+
+@font-face {
+    font-family: 'neue_machinaregular';
+    src: url('fonts/webfontkit-20240706-220330/neuemachina-regular-webfont.woff2') format('woff2'),
+         url('fonts/webfontkit-20240706-220330/neuemachina-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -21,8 +30,7 @@ body{
     grid-gap: 10px;
     padding: 10px;
     position: relative;
-    height: 100%;
-    
+    height: 100%; 
 }
 
 .title{
