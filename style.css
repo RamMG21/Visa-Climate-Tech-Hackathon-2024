@@ -1,9 +1,7 @@
 *{
     color: rgb(255, 255, 255);
     font-family: Neue Machina Light;
-    font-family: Helvetica;
-    
-    
+   
 }
 body{
     margin: 0;
@@ -22,7 +20,6 @@ body{
     padding: 10px;
     position: relative;
     height: 100%;
-    
 }
 
 .title{
